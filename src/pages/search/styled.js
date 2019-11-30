@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const Search_Box = styled.div`
+export const SearchBox = styled.div`
    overflow: auto;
    background: #f1f1f1;
    .head{

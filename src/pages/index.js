@@ -62,6 +62,11 @@ export const Shop = Loadable({
     loading:Loading
 })
 
+export const ShopList = Loadable({
+    loader:()=>import("./shopList"),
+    loading:Loading
+})
+
 
 export const Brand = Loadable({
     loader:()=>import("./brand"),

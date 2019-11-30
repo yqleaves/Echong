@@ -1,7 +1,7 @@
 import {
     Selected,Kind,Book,Mine,Login,Cart,
     Home,Collect,Video,Check,Detail,Shop,
-    VideoDetail,Brand,Main,Search
+    VideoDetail,Brand,Main,Search,ShopList
 } from "pages"
 
 
@@ -102,6 +102,7 @@ export const TabBarRoute = [
         icon:"\ue60f",
         text:"我的"
     },
+    
    
 ];
 
@@ -153,6 +154,13 @@ export const NoTabBarRoute = [
         component:Search,
         meta:{
             flag:true
+        }
+    },
+    {
+        path:"/shopList",
+        component:ShopList,
+        meta:{
+            
         }
     },
 ];

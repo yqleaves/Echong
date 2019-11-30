@@ -153,6 +153,7 @@ class Main extends React.Component{
         this.setState({
             activeIndex:index
         })
+        console.log(this.state.activeIndex)
     }
 }
 

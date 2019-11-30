@@ -1,5 +1,5 @@
 import React,{Component} from "react"
-import {Search_Box} from "./styled"
+import {SearchBox} from "./styled"
 import {Link,withRouter} from "react-router-dom"
 
 class Search extends Component{
@@ -12,7 +12,7 @@ class Search extends Component{
     render(){
         let {label} = this.state
         return(
-            <Search_Box>
+            <SearchBox>
                <div className="head">
                     <i onClick={this.handleBack.bind(this)}></i>
                     <input type="text" placeholder="搜索你喜欢的宝贝"/>
@@ -43,7 +43,7 @@ class Search extends Component{
                    <img src="//static.epetbar.com/static_wap/epetapp/pages/search/images/zjss.png" alt=""/>
                    最近搜索
                 </div> 
-            </Search_Box>
+            </SearchBox>
         )
     }
     handleBack(){
